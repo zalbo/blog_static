@@ -1,0 +1,224 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 300 1.25em/1.38 Oswald;
+  color: rgb(57, 57, 57);
+}
+
+header p {
+  margin-bottom: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 100px;
+    display: block;
+    text-align: center
+}
+
+.image {
+  display: block;
+  width: 12%;
+  height: auto;
+  margin: 35px auto 0;
+  overflow: hidden;
+}
+
+.menu {
+  position: relative;
+  clear: both;
+  width: 100%;
+  height: 50px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.button:hover {
+  background-color: rgb(230, 174, 72);
+  width: 100%;
+  height: 100%;
+}
+
+
+.text {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+._container {
+  width: 100%;
+
+
+}
+
+._element {
+  position: relative;
+  float: left;
+  width: 25%;
+  height: 291px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  margin: 7px;
+  text-align: center;
+line-height: 291px;
+
+}
+
+._element:hover {
+  background-color: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+
+.container ._text {
+  float: left;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(57, 57, 57);
+}
+
+
+
+.container ._text:active {
+  border-bottom: solid ; 5px ;rgb(219, 219, 219);
+  background-color: rgb(255, 255, 255);
+}
+
+._container-1 {
+  float: left;
+  height: 492px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-image: url('/images/DSCF1245.jpg');
+}
+
+.container-2 {
+  height: 582px;
+}
+
+
+
+.container-4 {
+  z-index: 13;
+  background-image: url('/images/img2.jpg');
+}
+
+
+
+.container-5 {
+  z-index: 14;
+  background-image: url('/images/img3.jpg');
+}
+
+
+
+.text-1 {
+  float: left;
+  clear: both;
+  width: 34.6666666666%;
+  min-height: 100px;
+  margin: 47px 0 0 32.66667%;
+  line-height: 1.1;
+  color: rgb(255, 255, 255);
+}
+
+.text-2 {
+  width: 100%;
+  height: 100%;
+  border-top: solid ; 5px ;rgb(219, 219, 219);
+  border-bottom: solid ; 5px ;rgb(219, 219, 219);
+  background-color: rgb(255, 255, 255);
+  line-height: 2.6;
+  color: rgb(230, 174, 72);
+}
+
+.space {
+  heidth: 1px;
+}
+
+.container ._text-2 {
+  width: 15.8620689655%;
+}
+
+
+
+
+.container ._text-3 {
+  width: 15.7758620689%;
+  margin-left: 0.99677%;
+}
+
+.container ._text-4 {
+  width: 15.8620689655%;
+  margin-left: 0.99677%;
+}
+
+.container ._text-5 {
+  width: 16.3793103448%;
+  margin-left: 1.0237099999%;
+}
+
+.container ._text-6 {
+  position: relative;
+  z-index: 7;
+  width: 16.3793103448%;
+  margin-left: 1.03583%;
+}
+
+.container ._text-7 {
+  position: relative;
+  z-index: 8;
+  width: 15.6896551724%;
+}
+
+.container ._text-3:active,
+.container ._text-4:active,
+.container ._text-5:active,
+.container ._text-6:active,
+.container ._text-7:active {
+  border-bottom-color: rgb(230, 174, 72);
+}
+
+.text span {
+  font-size: 0.467em;
+  font-weight: inherit;
+}
+
+@media(max-width: 320px) {
+  body {
+    font-size: 1em;
+  }
+
+  .container .container {
+    position: relative;
+  }
+
+  .menu {
+    height: 185px;
+  }
+
+  .text {
+
+    font-size: 1.25em;
+  }
+
+  .container ._text {
+    position: relative;
+    font-size: 16px;
+  }
+
+
+
+  .container .container-3 {
+    z-index: 12;
+  }
+
+  .container .container-4 {
+    z-index: 13;
+  }
+
+  .container .container-5 {
+    z-index: 14;
+  }
